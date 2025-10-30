@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Varnika – Cultural Pattern Generator</title>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1>■ Varnika</h1>
+ <select id="theme">
+ <option value="warli">Warli</option>
+ <option value="phulkari">Phulkari</option>
+ <option value="madhubani">Madhubani</option>
+ </select>
+ <button onclick="generatePattern()">Generate Pattern</button>
+ <canvas id="artCanvas" width="500" height="500"></canvas>
+ <br>
+ <button onclick="downloadCanvas()">Download PNG</button>
+ <script src="script.js"></script>
+</body>
+   </html>
