@@ -1,0 +1,30 @@
+body {
+ font-family: "Poppins", sans-serif;
+ text-align: center;
+ background: #f8fbff;
+ padding: 30px;
+ color: #333;
+}
+h1 {
+ font-family: "Tangerine", cursive;
+ font-size: 48px;
+ color: #5c72e6;
+}
+select, button {
+ margin: 10px;
+ padding: 10px;
+ border-radius: 8px;
+ border: 1px solid #ccc;
+}
+button {
+ background-color: #6a80ff;
+ color: white;
+ border: none;
+ cursor: pointer;
+}
+canvas {
+ margin-top: 20px;
+ background: white;
+ border-radius: 10px;
+ box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
